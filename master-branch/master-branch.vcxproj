@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8a92a2eb-03df-49fa-860c-9591ac7812a3}</ProjectGuid>
+    <ProjectGuid>{2c5443be-4846-4f82-a073-581e15216ab9}</ProjectGuid>
     <RootNamespace>masterbranch</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IIterable.cpp" />
+    <ClCompile Include="IIterator.cpp" />
     <ClCompile Include="master-branch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IIterable.h" />
+    <ClInclude Include="IIterator.h" />
+    <ClInclude Include="Ве крест крест.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
