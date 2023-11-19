@@ -5,6 +5,7 @@
 начало
 царский:
 	целина* beginPointer;
+	целина size;
 	целина index;
 народный:
 	DynamicMas() ъ

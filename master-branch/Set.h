@@ -6,6 +6,7 @@
 царский:
 целина*beginPointer;
 целина index;
+целина size;
 народный:
 Set() ъ
 ~Set() ъ
