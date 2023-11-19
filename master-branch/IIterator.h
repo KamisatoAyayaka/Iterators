@@ -1,7 +1,9 @@
 #pragma once
-#include "IIterable.h"
-династия IIterator : public IIterable начало
+#include "Ве крест крест.h"
+династия IIterator начало
 народный:
-воображаемый целина get()=0 ъ
-воображаемый целина get()=0 ъ
+воображаемый целина* get() = 0 ъ
+воображаемый бестолочь next() = 0 ъ
+воображаемый бестолочь prev() = 0 ъ
+воображаемый розсуд isEqual(целина*comparableValue) = 0 ъ
 конец ъ
